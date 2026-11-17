@@ -1,405 +1,626 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Faith Melody Studio · Custom Christian Songs of Faith</title>
-<meta name="description" content="Custom Christian songs crafted from your personal testimony: worship, joyful praise, hymns and gospel. In English or Spanish." data-i18n-content="doc.desc">
-<meta name="theme-color" content="#FFFDF9">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..800;1,9..144,500..800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="styles.css?v=v7">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Faith Melody Studio · Custom Christian Songs of Faith</title>
+  <meta name="description"
+    content="Custom Christian songs crafted from your personal testimony: worship, joyful praise, hymns and gospel. In English or Spanish."
+    data-i18n-content="doc.desc">
+  <meta name="theme-color" content="#FFFDF9">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..800;1,9..144,500..800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css?v=v8">
 </head>
+
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
-  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></symbol>
-  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></symbol>
-  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M6 6h2v12H6zM20 6v12L9.5 12z"/></symbol>
-  <symbol id="i-next" viewBox="0 0 24 24"><path d="M16 6h2v12h-2zM4 6v12l10.5-6z"/></symbol>
-  <symbol id="i-vol" viewBox="0 0 24 24"><path d="M4 9v6h4l5 5V4L8 9zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></symbol>
-  <symbol id="i-send" viewBox="0 0 24 24"><path d="M3 20l18-8L3 4v6l12 2-12 2z"/></symbol>
-  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4h16v12H7l-3 3z"/></symbol>
-  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1A7 7 0 0 0 19 11z"/></symbol>
-  <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 4.6v10.1A3.6 3.6 0 1 0 11 18V8.3l7-1.7v6.1A3.6 3.6 0 1 0 20 16V3a1 1 0 0 0-1.24-.97l-9 2.2A1 1 0 0 0 9 5.2Z"/></symbol>
-  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z"/></symbol>
-  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 6 8-6"/></symbol>
-  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
-  <symbol id="i-cross" viewBox="0 0 24 24"><path d="M10 2h4v6h6v4h-6v10h-4V12H4V8h6z"/></symbol>
-</svg>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-play" viewBox="0 0 24 24">
+      <path d="M8 5v14l11-7z" />
+    </symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24">
+      <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" />
+    </symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24">
+      <path d="M6 6h2v12H6zM20 6v12L9.5 12z" />
+    </symbol>
+    <symbol id="i-next" viewBox="0 0 24 24">
+      <path d="M16 6h2v12h-2zM4 6v12l10.5-6z" />
+    </symbol>
+    <symbol id="i-vol" viewBox="0 0 24 24">
+      <path d="M4 9v6h4l5 5V4L8 9zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z" />
+    </symbol>
+    <symbol id="i-send" viewBox="0 0 24 24">
+      <path d="M3 20l18-8L3 4v6l12 2-12 2z" />
+    </symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24">
+      <path d="M4 4h16v12H7l-3 3z" />
+    </symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24">
+      <path
+        d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1A7 7 0 0 0 19 11z" />
+    </symbol>
+    <symbol id="i-note" viewBox="0 0 24 24">
+      <path
+        d="M9 4.6v10.1A3.6 3.6 0 1 0 11 18V8.3l7-1.7v6.1A3.6 3.6 0 1 0 20 16V3a1 1 0 0 0-1.24-.97l-9 2.2A1 1 0 0 0 9 5.2Z" />
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24">
+      <path
+        d="M12 1.5c.7 5.6 4.9 9.8 10.5 10.5-5.6.7-9.8 4.9-10.5 10.5C11.3 16.9 7.1 12.7 1.5 12 7.1 11.3 11.3 7.1 12 1.5Z" />
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <rect x="3" y="5" width="18" height="14" rx="3" />
+      <path d="m4 7.5 8 6 8-6" />
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </symbol>
+    <symbol id="i-cross" viewBox="0 0 24 24">
+      <path d="M10 2h4v6h6v4h-6v10h-4V12H4V8h6z" />
+    </symbol>
+  </svg>
 
-<!-- Radiant celestial mesh background -->
-<div class="mesh" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <!-- Radiant celestial mesh background -->
+  <div class="mesh" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
 
-<header class="nav" id="nav"><div class="wrap">
-  <a class="brand" href="#top">
-    <span class="logo" aria-hidden="true"><svg><use href="#i-cross"/></svg></span>
-    <span class="brand-text" data-brand>Faith Melody Studio</span>
-  </a>
-  <nav aria-label="Main navigation" data-i18n-aria="nav.main" id="navLinks">
-    <a href="#samples" data-i18n="nav.samples">Listen Samples</a>
-    <a href="#occasions" data-i18n="nav.occ">Occasions of Blessing</a>
-    <a href="#how" data-i18n="nav.how">How It Works</a>
-    <a href="#styles" data-i18n="nav.styles">Worship Styles</a>
-    <a href="#pricing" data-i18n="nav.pricing">Packages</a>
-    <a href="#reviews" data-i18n="nav.reviews" data-needs-reviews hidden>Testimonies</a>
-    <a href="#faq" data-i18n="nav.faq">Questions</a>
-  </nav>
-  <div class="nav-right">
-    <div class="langs" id="langs" role="group" aria-label="Language" data-i18n-aria="nav.lang"></div>
-    <button class="btn sm glow" type="button" data-order data-i18n="nav.cta">Create a Song of Faith</button>
-    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Menu" data-i18n-aria="nav.menu"><span></span><span></span></button>
-  </div>
-</div></header>
-
-<main id="top">
-
-<!-- HERO: Jovial & Radiant Bento Grid -->
-<section class="hero" id="hero">
-  <canvas id="wave" aria-hidden="true"></canvas>
-  <div class="wrap bento hero-bento">
-    <div class="cell hero-main">
-      <div class="eyebrow" data-i18n="hero.eyebrow">Songs of Faith &amp; Worship · English &amp; Español</div>
-      <h1 data-i18n="hero.h1">Turn your testimony into a <em>song of praise.</em></h1>
-      <p class="lead" data-i18n="hero.sub">Share what God has done: a baptism, a godly wedding, a life of faithfulness, or an answered prayer. We craft uplifting lyrics rooted in Scripture, produce the song in the worship style you love, and deliver an unforgettable blessing ready to touch hearts.</p>
-      <div class="cta-row">
-        <button class="btn lg glow" type="button" data-order><span data-i18n="hero.cta">Create a Song of Faith</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
-        <button class="btn ghost lg" type="button" id="heroListen"><svg aria-hidden="true"><use href="#i-play"/></svg><span data-i18n="hero.listen">Hear a Sample</span></button>
-      </div>
-      <ul class="trust">
-        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.t1">Written from your personal testimony &amp; Scripture</span></li>
-        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.t2">Available in English, Spanish, or Bilingual</span></li>
-        <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="hero.t3">One-time payment · No subscription</span></li>
-      </ul>
-    </div>
-
-    <div class="cell hero-art" id="heroArt">
-      <span class="cross-badge" aria-hidden="true"><svg><use href="#i-cross"/></svg></span>
-      <img src="media/img/hero.webp" width="864" height="1152" alt="Uplifting illustration of joy, music and praise.">
-      <div class="for-tag"><span data-i18n="hero.for">Blessing for</span> <b id="rot">Mom</b></div>
-      <div class="seal" aria-hidden="true">
-        <svg viewBox="0 0 120 120"><defs><path id="sealPath" d="M60 60m-44 0a44 44 0 1 1 88 0a44 44 0 1 1-88 0"/></defs>
-          <text><textPath href="#sealPath" textLength="270">SONGS OF FAITH ✦ CANCIONES DE FE ✦ </textPath></text></svg>
-        <span><svg viewBox="0 0 24 24"><use href="#i-note"/></svg></span>
-      </div>
-    </div>
-
-    <div class="cell np">
-      <button class="rbtn" type="button" data-play aria-label="Play"><svg aria-hidden="true"><use href="#i-play" data-play-icon/></svg></button>
-      <div class="np-info"><small data-i18n="hero.np">Now Playing Sample</small><strong data-title>With You</strong><span class="np-meta" data-meta></span></div>
-      <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
-    </div>
-
-    <div class="cell chips-cell">
-      <span class="chip"><i>✦</i><span data-i18n="hero.c1">Worship &amp; Alabanza</span></span>
-      <span class="chip"><i>✦</i><span data-i18n="hero.c2">Lyrics rooted in the Word</span></span>
-      <span class="chip"><i>✦</i><span data-i18n="hero.c3">English · Español</span></span>
-    </div>
-  </div>
-</section>
-
-<!-- TICKER: Built dynamically from the occasions of grace -->
-<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
-
-<!-- FACTS: At a glance -->
-<section class="facts" aria-label="At a glance" data-i18n-aria="fact.label"><div class="wrap bento facts-bento">
-  <div class="cell fact"><b data-fact="samples">6</b><span data-i18n="fact.samples">samples to listen right here</span></div>
-  <div class="cell fact"><b data-fact="styles">24</b><span data-i18n="fact.styles">worship styles to choose from</span></div>
-  <div class="cell fact"><b data-fact="langs">2</b><span data-i18n="fact.langs">languages supported (EN / ES)</span></div>
-  <div class="cell fact accent"><b data-fact="from">$19</b><span data-i18n="fact.price">starting package</span></div>
-</div></section>
-
-<!-- SAMPLES PLAYER: Eric's interactive player with synchronized lyrics -->
-<section id="samples"><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="player.eyebrow">Listen First</div>
-    <h2 data-i18n="player.h2">Press play. <em>Sing and worship.</em></h2>
-    <p class="lead" data-i18n="player.sub">Listen to six sample tracks to experience our sound quality and synchronized lyrics. Your custom song will be written directly from your story of faith and devotion.</p>
-  </div>
-  <div id="playerBox"><div class="player bento" data-rv>
-    <div class="cell deck">
-      <div class="art"><img id="deckArt" src="media/img/love.webp" width="1100" height="825" alt="Worship track artwork"><span class="spin" aria-hidden="true"></span></div>
-      <div class="tt"><strong data-title>With You</strong><span data-meta>Christian Ballad · Piano &amp; Strings</span></div>
-      <div class="wavebox"><canvas id="peaks" aria-hidden="true"></canvas><input type="range" id="seek" min="0" max="1000" value="0" aria-label="Seek audio" data-i18n-aria="player.seek"></div>
-      <div class="times"><span id="tCur">0:00</span><span id="tDur">2:33</span></div>
-      <div class="ctl">
-        <button class="ibtn" type="button" id="prev" aria-label="Previous sample" data-i18n-aria="player.prev"><svg aria-hidden="true"><use href="#i-prev"/></svg></button>
-        <button class="rbtn big glow" type="button" data-play aria-label="Play"><svg aria-hidden="true"><use href="#i-play" data-play-icon/></svg></button>
-        <button class="ibtn" type="button" id="next" aria-label="Next sample" data-i18n-aria="player.next"><svg aria-hidden="true"><use href="#i-next"/></svg></button>
-      </div>
-      <div class="deck-foot">
-        <div class="vol"><svg aria-hidden="true"><use href="#i-vol"/></svg><input type="range" id="vol" min="0" max="100" value="85" aria-label="Audio volume" data-i18n-aria="player.vol"></div>
-        <div class="hear"><span data-i18n="player.hear">Sample in</span><div class="langs" id="sLangs" role="group" aria-label="Sample in" data-i18n-aria="player.hear"></div></div>
+  <header class="nav" id="nav">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span class="logo" aria-hidden="true"><svg>
+            <use href="#i-cross" />
+          </svg></span>
+        <span class="brand-text" data-brand>Faith Melody Studio</span>
+      </a>
+      <nav aria-label="Main navigation" data-i18n-aria="nav.main" id="navLinks">
+        <a href="#samples" data-i18n="nav.samples">Listen Samples</a>
+        <a href="#occasions" data-i18n="nav.occ">Occasions of Blessing</a>
+        <a href="#how" data-i18n="nav.how">How It Works</a>
+        <a href="#styles" data-i18n="nav.styles">Worship Styles</a>
+        <a href="#pricing" data-i18n="nav.pricing">Packages</a>
+        <a href="#reviews" data-i18n="nav.reviews" data-needs-reviews hidden>Testimonies</a>
+        <a href="#faq" data-i18n="nav.faq">Questions</a>
+      </nav>
+      <div class="nav-right">
+        <div class="langs" id="langs" role="group" aria-label="Language" data-i18n-aria="nav.lang"></div>
+        <button class="btn sm glow" type="button" data-order data-i18n="nav.cta">Create a Song of Faith</button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks"
+          aria-label="Menu" data-i18n-aria="nav.menu"><span></span><span></span></button>
       </div>
     </div>
+  </header>
 
-    <div class="cell sheet">
-      <div class="sheet-top">
-        <span class="sheet-tag"><b data-i18n="player.words">Synced Words</b><span data-meta>Christian Ballad · Piano &amp; Strings</span></span>
-        <button class="toggle" type="button" id="kmode" aria-pressed="false"><i></i><span data-i18n="player.big">Large Lyrics</span></button>
-      </div>
-      <div class="stage" id="stage"><div class="stage-in" id="stageIn"></div></div>
-      <p class="sheet-err" id="songErr" role="alert" hidden></p>
-      <div class="sheet-foot"><span data-i18n="player.note">These are sample recordings to demonstrate sound and synced lyrics. Your personalized song is uniquely written from your testimony.</span><button class="btn sm" type="button" id="wantThis" data-i18n="player.want">I Want a Song Like This</button></div>
-    </div>
+  <main id="top">
 
-    <div class="cell list" id="list" role="list" aria-label="Sample songs list" data-i18n-aria="player.list"></div>
-  </div></div>
-</div></section>
+    <!-- HERO: Jovial & Radiant Bento Grid -->
+    <section class="hero" id="hero">
+      <canvas id="wave" aria-hidden="true"></canvas>
+      <div class="wrap bento hero-bento">
+        <div class="cell hero-main">
+          <div class="eyebrow" data-i18n="hero.eyebrow">Songs of Faith &amp; Worship · English &amp; Español</div>
+          <h1 data-i18n="hero.h1">Turn your testimony into a <em>song of praise.</em></h1>
+          <p class="lead" data-i18n="hero.sub">Share what God has done: a baptism, a godly wedding, a life of
+            faithfulness, or an answered prayer. We craft uplifting lyrics rooted in Scripture, produce the song in the
+            worship style you love, and deliver an unforgettable blessing ready to touch hearts.</p>
+          <div class="cta-row">
+            <button class="btn lg glow" type="button" data-order><span data-i18n="hero.cta">Create a Song of
+                Faith</span><svg aria-hidden="true">
+                <use href="#i-arrow" />
+              </svg></button>
+            <button class="btn ghost lg" type="button" id="heroListen"><svg aria-hidden="true">
+                <use href="#i-play" />
+              </svg><span data-i18n="hero.listen">Hear a Sample</span></button>
+          </div>
+          <ul class="trust">
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="hero.t1">Written from your personal testimony &amp; Scripture</span></li>
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="hero.t2">Available in English, Spanish, or Bilingual</span></li>
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="hero.t3">One-time payment · No subscription</span></li>
+          </ul>
+        </div>
 
-<!-- OCCASIONS: Celebrations of Faith & Grace -->
-<section id="occasions"><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="occ.eyebrow">Every Season of Grace</div>
-    <h2 data-i18n="occ.h2">A melody for <em>every divine blessing.</em></h2>
-    <p class="lead" data-i18n="occ.sub">Choose an occasion to begin your custom song. Each card represents the heart and truth your lyrics can celebrate.</p>
-  </div>
-  <div class="occs bento" id="occs"></div>
-</div></section>
+        <div class="cell hero-art" id="heroArt">
+          <span class="cross-badge" aria-hidden="true"><svg>
+              <use href="#i-cross" />
+            </svg></span>
+          <img src="media/img/hero.webp" width="864" height="1152"
+            alt="Uplifting illustration of joy, music and praise.">
+          <div class="for-tag"><span data-i18n="hero.for">Blessing for</span> <b id="rot">Mom</b></div>
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <path id="sealPath" d="M60 60m-44 0a44 44 0 1 1 88 0a44 44 0 1 1-88 0" />
+              </defs>
+              <text>
+                <textPath href="#sealPath" textLength="270">SONGS OF FAITH ✦ CANCIONES DE FE ✦ </textPath>
+              </text>
+            </svg>
+            <span><svg viewBox="0 0 24 24">
+                <use href="#i-note" />
+              </svg></span>
+          </div>
+        </div>
 
-<!-- STATEMENT QUOTE -->
-<section class="statement"><div class="wrap">
-  <div class="statement-card" data-rv>
-    <div class="cross-icon" aria-hidden="true"><svg><use href="#i-cross"/></svg></div>
-    <p class="big-quote" data-i18n="quote.text">Flowers wither and gifts are forgotten. But a song that proclaims <em>what God has done</em> echoes for generations.</p>
-    <p class="verse" data-i18n="quote.verse">“Sing to the Lord a new song; sing to the Lord, all the earth.” — Psalm 96:1</p>
-  </div>
-</div></section>
+        <div class="cell np">
+          <button class="rbtn" type="button" data-play aria-label="Play"><svg aria-hidden="true">
+              <use href="#i-play" data-play-icon />
+            </svg></button>
+          <div class="np-info"><small data-i18n="hero.np">Now Playing Sample</small><strong data-title>With
+              You</strong><span class="np-meta" data-meta></span></div>
+          <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        </div>
 
-<!-- HOW IT WORKS -->
-<section id="how"><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="how.eyebrow">Simple &amp; Joyful Process</div>
-    <h2 data-i18n="how.h2">Three easy steps. <em>One unforgettable song of praise.</em></h2>
-  </div>
-  <div class="bento how-bento">
-    <div class="cell step s1" data-rv>
-      <span class="num">01</span>
-      <h3 data-i18n="how.s1t">1. Share your testimony</h3>
-      <p data-i18n="how.s1d">Tell us names, favorite Bible verses, memories, answered prayers, or moments where God's hand moved. Simple words are all we need.</p>
-    </div>
-    <div class="cell how-art" data-rv>
-      <img src="media/img/story.webp" width="1024" height="1024" loading="lazy" alt="Testimony notebook with Scripture and inspiration.">
-      <p class="sticker" data-i18n="how.note">One testimony. <b>One eternal song of praise.</b></p>
-    </div>
-    <div class="cell step s2" data-rv>
-      <span class="num">02</span>
-      <h3 data-i18n="how.s2t">2. Pick your worship sound</h3>
-      <p data-i18n="how.s2d">Choose contemporary worship, gospel, traditional hymn, Christian pop, acoustic prayer, or Latin praise. Pick the voice and language.</p>
-    </div>
-    <div class="cell step s3" data-rv>
-      <span class="num">03</span>
-      <h3 data-i18n="how.s3t">3. Receive &amp; bless your loved ones</h3>
-      <p data-i18n="how.s3d">We deliver your fully produced song with your chosen package extras. If any name or line needs adjustment, revisions are included.</p>
-      <button class="btn sm glow" type="button" data-order data-i18n="how.cta">Start Your Song Today</button>
-    </div>
-  </div>
-</div></section>
-
-<!-- SONG GUIDE: Interactive Chat -->
-<section class="story" id="story"><div class="wrap bento story-bento">
-  <div class="cell story-info" data-rv>
-    <div class="eyebrow" data-i18n="story.eyebrow">Guided Song Assistant</div>
-    <h2 data-i18n="story.h2">Share it like you would <em>share a testimony with family.</em></h2>
-    <p class="lead" data-i18n="story.sub">No musical terms required. Our song guide asks four friendly questions and prepares your order details automatically.</p>
-    <ul class="ticks">
-      <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="story.b1">Four quick, uplifting questions (takes only 1 minute)</span></li>
-      <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="story.b2">Include beloved names, places, and meaningful Scripture</span></li>
-      <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="story.b3">Review, adjust and customize anything before sending</span></li>
-      <li data-needs-whatsapp hidden><svg aria-hidden="true"><use href="#i-mic"/></svg><span data-i18n="story.b4">Prefer speaking? Send your testimony via WhatsApp voice note.</span></li>
-    </ul>
-  </div>
-  <div class="cell chat" data-rv>
-    <div class="chat-head">
-      <div class="chat-avatar"><svg aria-hidden="true"><use href="#i-chat"/></svg></div>
-      <div><b data-i18n="story.title">Worship Song Guide</b><span data-i18n="story.kind">Interactive assistance</span></div>
-    </div>
-    <div class="msgs" id="msgs" aria-live="polite"></div>
-    <div class="quick" id="quick"></div>
-    <form id="chatForm" autocomplete="off"><input id="chatIn" placeholder="Type your answer here…" data-i18n-ph="story.ph" aria-label="Type your answer here…" data-i18n-aria="story.ph"><button aria-label="Send answer" data-i18n-aria="story.send"><svg aria-hidden="true"><use href="#i-send"/></svg></button></form>
-  </div>
-</div></section>
-
-<!-- STYLES CHIPS -->
-<section id="styles"><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="styles.eyebrow">Every Melody of Praise</div>
-    <h2 data-i18n="styles.h2">Worship, gospel, hymns, <em>and joyful rhythms.</em></h2>
-    <p class="lead" data-i18n="styles.sub">Select a style to begin. Unsure? Share the mood (joyful celebration, reflective prayer) and we will craft the perfect arrangement.</p>
-  </div>
-  <div class="chips" id="chips" data-rv></div>
-  <div class="style-cta"><button class="btn glow" type="button" id="styleCta">Create My Song</button><span data-i18n="styles.note">Have a specific Christian artist or style in mind? You can write any style notes in your order.</span></div>
-</div></section>
-
-<!-- WHAT THEY GET -->
-<section id="gift"><div class="wrap bento gift-bento">
-  <div class="cell gift-art" data-rv><img src="media/img/gift.webp" width="1100" height="825" loading="lazy" alt="A blessed Christian gift package with music and memories."></div>
-  <div class="cell gift-text" data-rv>
-    <div class="eyebrow" data-i18n="gift.eyebrow">What You Receive</div>
-    <h2 data-i18n="gift.h2">More than music. <em>A cherished blessing to treasure forever.</em></h2>
-    <p class="lead" data-i18n="gift.sub">The song is the heart of it. We package it beautifully for celebrations at church, at home, or with friends.</p>
-    <ul class="gift-list">
-      <li><span class="ico"><svg aria-hidden="true"><use href="#i-note"/></svg></span><div><b data-i18n="gift.l1t">A Mastered Song of Faith</b><p data-i18n="gift.l1d">Written about your loved ones and your faith, professionally mixed and mastered as an MP3 to keep and share forever.</p></div></li>
-      <li><span class="ico"><svg aria-hidden="true"><use href="#i-star"/></svg></span><div><b data-i18n="gift.l2t">Keepsake Lyrics &amp; Scripture Sheet</b><p data-i18n="gift.l2d">A printable lyric sheet with Bible verses, plus an engaging short lyric video in Signature and Deluxe packages.</p></div></li>
-      <li><span class="ico"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><div><b data-i18n="gift.l3t">A Meaningful Way to Present It</b><p data-i18n="gift.l3d">A private streaming link in every package. Signature adds a custom gift page with your personal note and a printable QR card.</p></div></li>
-    </ul>
-  </div>
-</div></section>
-
-<!-- PACKAGES & PRICING -->
-<section id="pricing"><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="price.eyebrow">Honest &amp; Transparent Packages</div>
-    <h2 data-i18n="price.h2">Choose your blessing. <em>Pay once, enjoy forever.</em></h2>
-    <p class="lead" data-i18n="price.sub">No recurring fees or subscriptions. Every package includes original faith-focused lyrics, complete music production, and private sharing.</p>
-  </div>
-  <div class="plans" id="plans"></div>
-  <h3 class="more" id="moreTitle" data-i18n="price.more">For Churches, Ministries &amp; Special Tributes</h3>
-  <div class="extras" id="extras"></div>
-  <div class="addons cell">
-    <p class="addons-label" data-i18n="price.addT">Add optional extras to any package</p>
-    <ul id="addonList"></ul>
-  </div>
-  <ul class="assure">
-    <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="price.g1">One-time payment · Zero subscriptions</span></li>
-    <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="price.g2">Nothing is charged directly on this page</span></li>
-    <li><svg aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="price.g3">Review all details with us before paying</span></li>
-  </ul>
-</div></section>
-
-<!-- REVIEWS: Visible only if reviews array in config.js is populated -->
-<section id="reviews" data-needs-reviews hidden><div class="wrap">
-  <div class="head" data-rv>
-    <div class="eyebrow" data-i18n="rev.eyebrow">Testimonies &amp; Stories</div>
-    <h2 data-i18n="rev.h2">The joy and tears of gratitude are <em>the true reward.</em></h2>
-  </div>
-  <div class="revs bento" id="revs"></div>
-</div></section>
-
-<!-- FAQ -->
-<section class="faq" id="faq"><div class="wrap faq-grid">
-  <div data-rv>
-    <div class="eyebrow" data-i18n="faq.eyebrow">Frequently Asked Questions</div>
-    <h2 data-i18n="faq.h2">Everything you need to know <em>before ordering.</em></h2>
-    <p class="lead" data-i18n="faq.sub">Have questions? You can start the order form safely: nothing is charged until we review your request together.</p>
-  </div>
-  <div class="qa" id="qa"></div>
-</div></section>
-
-<!-- FINAL CALL TO ACTION -->
-<section class="final"><div class="wrap"><div class="final-card glow-card">
-  <div class="cross-badge-big" aria-hidden="true"><svg><use href="#i-cross"/></svg></div>
-  <h2 data-i18n="final.h2">Your testimony is ready. <em>Let it become a song of praise!</em></h2>
-  <p data-i18n="final.sub">Share what God has done today. We turn your memories into uplifting music.</p>
-  <button class="btn lg glow" type="button" data-order data-i18n="hero.cta">Create a Song of Faith</button>
-  <small data-i18n="final.note">From $19 · One-time payment</small>
-</div></div></section>
-</main>
-
-<!-- FOOTER -->
-<footer class="site"><div class="wrap">
-  <a class="brand" href="#top">
-    <span class="logo" aria-hidden="true"><svg><use href="#i-cross"/></svg></span>
-    <span class="brand-text" data-brand>Faith Melody Studio</span>
-  </a>
-  <p data-i18n="foot.line">Faith Melody Studio (FaithMelodyStudio.com) · Custom Christian songs crafted from personal testimonies and faith.</p>
-  <span data-i18n="foot.rights">© Faith Melody Studio · FaithMelodyStudio.com · All rights reserved</span>
-</div></footer>
-
-<!-- FLOATING MINI-PLAYER -->
-<div class="mini" id="mini">
-  <button class="rbtn" type="button" data-play aria-label="Play"><svg aria-hidden="true"><use href="#i-play" data-play-icon/></svg></button>
-  <div class="mini-info"><strong data-title></strong><small data-meta></small></div>
-  <button class="btn sm glow" type="button" data-order data-i18n="nav.cta">Create a Song of Faith</button>
-  <span class="mini-bar" aria-hidden="true"><i id="miniBar"></i></span>
-</div>
-
-<!-- ORDER MODAL (4 Steps + Summary) -->
-<dialog id="order" aria-labelledby="mTitle">
-  <div class="m-head">
-    <div>
-      <h3 id="mTitle" data-i18n="m.title">Create Your Song of Faith</h3>
-      <button class="x" type="button" id="mClose" aria-label="Close dialog" data-i18n-aria="m.close">×</button>
-    </div>
-    <ol class="prog" id="prog">
-      <li data-i18n="m.p1">1 · For Whom</li>
-      <li data-i18n="m.p2">2 · Testimony</li>
-      <li data-i18n="m.p3">3 · Worship Sound</li>
-      <li data-i18n="m.p4">4 · Package &amp; Details</li>
-    </ol>
-  </div>
-  <form class="m-body" id="mBody" novalidate>
-    <div data-step="1">
-      <h4 data-i18n="m.s1t">Who is this song of blessing for?</h4>
-      <p class="hint" data-i18n="m.s1h">We will use their name in the lyrics and prayers exactly as you write it.</p>
-      <div class="grid2">
-        <div class="f"><label for="o-name" data-i18n="m.name">Their name</label><input id="o-name" maxlength="40" autocomplete="off"><span class="err" id="e-name" role="alert"></span></div>
-        <div class="f"><label for="o-say" data-i18n="m.say">Pronunciation or special nickname (optional)</label><input id="o-say" maxlength="60" placeholder="e.g. Joy or Pastor David" autocomplete="off"></div>
-        <div class="f"><label for="o-rel" data-i18n="m.rel">Relationship to you</label><select id="o-rel"></select></div>
-        <div class="f"><label for="o-occ" data-i18n="m.occ">Occasion or blessing</label><select id="o-occ"></select></div>
-      </div>
-    </div>
-    <div data-step="2" hidden>
-      <h4 data-i18n="m.s2t">Tell us the testimony or story</h4>
-      <p class="hint" data-i18n="m.s2h">Answered prayers, favorite Bible verses, memories, or blessings you want in the song.</p>
-      <div class="f">
-        <label for="o-story" data-i18n="m.story">Your testimony and memories</label>
-        <textarea id="o-story" maxlength="1500" data-i18n-ph="m.storyPh" placeholder="e.g. We want to honor Mom for her 60th birthday. She loves Psalm 23, taught us to pray every evening, and always serves our church family with a joyful smile..."></textarea>
-        <div class="count"><span id="o-count">0</span>/1500</div>
-        <span class="err" id="e-story" role="alert"></span>
-      </div>
-      <p class="note" data-needs-whatsapp hidden><svg aria-hidden="true"><use href="#i-mic"/></svg><span data-i18n="m.voiceNote">Prefer speaking? You can add a WhatsApp voice note after submitting this summary.</span></p>
-    </div>
-    <div data-step="3" hidden>
-      <h4 data-i18n="m.s3t">Choose the worship sound</h4>
-      <p class="hint" data-i18n="m.s3h">Not sure? Select "Surprise me" and we will tailor the arrangement to your testimony.</p>
-      <div class="grid2">
-        <div class="f"><label for="o-style" data-i18n="m.style">Worship style</label><select id="o-style"></select></div>
-        <div class="f"><label for="o-mood" data-i18n="m.mood">Emotional tone</label><select id="o-mood"></select></div>
-        <div class="f"><label for="o-voice" data-i18n="m.voice">Voice type</label><select id="o-voice"></select></div>
-        <div class="f"><label for="o-lang" data-i18n="m.lang">Song language</label><select id="o-lang"></select></div>
-      </div>
-      <div class="f"><label for="o-ref" data-i18n="m.ref">Favorite instruments or style references (optional)</label><input id="o-ref" maxlength="120" placeholder="e.g. Acoustic guitar, warm piano, soft choir..." autocomplete="off"></div>
-    </div>
-    <div data-step="4" hidden>
-      <h4 data-i18n="m.s4t">Pick your package</h4>
-      <p class="hint" data-i18n="m.s4h">One-time payment. No subscription. No charges on this page.</p>
-      <div class="sumbox" id="sumbox"></div>
-      <div class="pick" id="pickPlan" role="radiogroup" aria-labelledby="mTitle"></div>
-      <h4 class="sub" data-i18n="m.addons">Optional Add-ons</h4>
-      <div class="pick" id="pickAdd"></div>
-      <div class="grid2">
-        <div class="f"><label for="o-buyer" data-i18n="m.buyer">Your full name</label><input id="o-buyer" maxlength="60" autocomplete="name"><span class="err" id="e-buyer" role="alert"></span></div>
-        <div class="f"><label for="o-email" data-i18n="m.email">Your email address (optional)</label><input id="o-email" type="email" autocomplete="email" placeholder="you@example.com"><span class="err" id="e-email" role="alert"></span></div>
-        <div class="f"><label for="o-date" data-i18n="m.date">Date needed by (optional)</label><input id="o-date" type="date"></div>
-      </div>
-    </div>
-    <div data-step="5" hidden>
-      <div class="ok">
-        <div class="tick" aria-hidden="true"><svg><use href="#i-check"/></svg></div>
-        <h4 data-i18n="m.okT">Your order summary is ready to send!</h4>
-        <p id="okLead" data-i18n="m.okLead">Nothing has been charged yet. Review your summary below and send it to us via Email or WhatsApp to confirm.</p>
-        <textarea class="order-text" id="orderText" readonly rows="12" aria-label="Order summary text" data-i18n-aria="m.orderText"></textarea>
-        <div class="send">
-          <a class="btn glow" id="sendMail" hidden data-i18n="m.mail">Send via Email</a>
-          <a class="btn glow" id="sendWa" target="_blank" rel="noopener" hidden data-i18n="m.wa">Send via WhatsApp</a>
-          <button class="btn ghost" type="button" id="copyOrder" data-i18n="m.copy">Copy Order Summary</button>
+        <div class="cell chips-cell">
+          <span class="chip"><i>✦</i><span data-i18n="hero.c1">Worship &amp; Alabanza</span></span>
+          <span class="chip"><i>✦</i><span data-i18n="hero.c2">Lyrics rooted in the Word</span></span>
+          <span class="chip"><i>✦</i><span data-i18n="hero.c3">English · Español</span></span>
         </div>
       </div>
-    </div>
-  </form>
-  <div class="m-foot">
-    <div class="tot"><small data-i18n="m.total">Total</small><b id="mTotal">$39</b></div>
-    <button type="button" class="btn ghost" id="mBack" data-i18n="m.back">Back</button>
-    <button type="button" class="btn glow" id="mNext">Next step</button>
-  </div>
-</dialog>
+    </section>
 
-<script src="config.js?v=v7"></script>
-<script src="text.js?v=v7"></script>
-<script src="songs.js?v=v7"></script>
-<script src="script.js?v=v7"></script>
+    <!-- TICKER: Built dynamically from the occasions of grace -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track" id="ticker"></div>
+    </div>
+
+    <!-- FACTS: At a glance -->
+    <section class="facts" aria-label="At a glance" data-i18n-aria="fact.label">
+      <div class="wrap bento facts-bento">
+        <div class="cell fact"><b data-fact="samples">6</b><span data-i18n="fact.samples">samples to listen right
+            here</span></div>
+        <div class="cell fact"><b data-fact="styles">24</b><span data-i18n="fact.styles">worship styles to choose
+            from</span></div>
+        <div class="cell fact"><b data-fact="langs">2</b><span data-i18n="fact.langs">languages supported (EN /
+            ES)</span></div>
+        <div class="cell fact accent"><b data-fact="from">$19</b><span data-i18n="fact.price">starting package</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAMPLES PLAYER: Eric's interactive player with synchronized lyrics -->
+    <section id="samples">
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="player.eyebrow">Listen First</div>
+          <h2 data-i18n="player.h2">Press play. <em>Sing and worship.</em></h2>
+          <p class="lead" data-i18n="player.sub">Listen to six sample tracks to experience our sound quality and
+            synchronized lyrics. Your custom song will be written directly from your story of faith and devotion.</p>
+        </div>
+        <div id="playerBox">
+          <div class="player bento" data-rv>
+            <div class="cell deck">
+              <div class="art"><img id="deckArt" src="media/img/love.webp" width="1100" height="825"
+                  alt="Worship track artwork"><span class="spin" aria-hidden="true"></span></div>
+              <div class="tt"><strong data-title>With You</strong><span data-meta>Christian Ballad · Piano &amp;
+                  Strings</span></div>
+              <div class="wavebox"><canvas id="peaks" aria-hidden="true"></canvas><input type="range" id="seek" min="0"
+                  max="1000" value="0" aria-label="Seek audio" data-i18n-aria="player.seek"></div>
+              <div class="times"><span id="tCur">0:00</span><span id="tDur">2:33</span></div>
+              <div class="ctl">
+                <button class="ibtn" type="button" id="prev" aria-label="Previous sample"
+                  data-i18n-aria="player.prev"><svg aria-hidden="true">
+                    <use href="#i-prev" />
+                  </svg></button>
+                <button class="rbtn big glow" type="button" data-play aria-label="Play"><svg aria-hidden="true">
+                    <use href="#i-play" data-play-icon />
+                  </svg></button>
+                <button class="ibtn" type="button" id="next" aria-label="Next sample" data-i18n-aria="player.next"><svg
+                    aria-hidden="true">
+                    <use href="#i-next" />
+                  </svg></button>
+              </div>
+              <div class="deck-foot">
+                <div class="vol"><svg aria-hidden="true">
+                    <use href="#i-vol" />
+                  </svg><input type="range" id="vol" min="0" max="100" value="85" aria-label="Audio volume"
+                    data-i18n-aria="player.vol"></div>
+                <div class="hear"><span data-i18n="player.hear">Sample in</span>
+                  <div class="langs" id="sLangs" role="group" aria-label="Sample in" data-i18n-aria="player.hear"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell sheet">
+              <div class="sheet-top">
+                <span class="sheet-tag"><b data-i18n="player.words">Synced Words</b><span data-meta>Christian Ballad ·
+                    Piano &amp; Strings</span></span>
+                <button class="toggle" type="button" id="kmode" aria-pressed="false"><i></i><span
+                    data-i18n="player.big">Large Lyrics</span></button>
+              </div>
+              <div class="stage" id="stage">
+                <div class="stage-in" id="stageIn"></div>
+              </div>
+              <p class="sheet-err" id="songErr" role="alert" hidden></p>
+              <div class="sheet-foot"><span data-i18n="player.note">These are sample recordings to demonstrate sound and
+                  synced lyrics. Your personalized song is uniquely written from your testimony.</span><button
+                  class="btn sm" type="button" id="wantThis" data-i18n="player.want">I Want a Song Like This</button>
+              </div>
+            </div>
+
+            <div class="cell list" id="list" role="list" aria-label="Sample songs list" data-i18n-aria="player.list">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OCCASIONS: Celebrations of Faith & Grace -->
+    <section id="occasions">
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="occ.eyebrow">Every Season of Grace</div>
+          <h2 data-i18n="occ.h2">A melody for <em>every divine blessing.</em></h2>
+          <p class="lead" data-i18n="occ.sub">Choose an occasion to begin your custom song. Each card represents the
+            heart and truth your lyrics can celebrate.</p>
+        </div>
+        <div class="occs bento" id="occs"></div>
+      </div>
+    </section>
+
+    <!-- STATEMENT QUOTE -->
+    <section class="statement">
+      <div class="wrap">
+        <div class="statement-card" data-rv>
+          <div class="cross-icon" aria-hidden="true"><svg>
+              <use href="#i-cross" />
+            </svg></div>
+          <p class="big-quote" data-i18n="quote.text">Flowers wither and gifts are forgotten. But a song that proclaims
+            <em>what God has done</em> echoes for generations.</p>
+          <p class="verse" data-i18n="quote.verse">“Sing to the Lord a new song; sing to the Lord, all the earth.” —
+            Psalm 96:1</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how">
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="how.eyebrow">Simple &amp; Joyful Process</div>
+          <h2 data-i18n="how.h2">Three easy steps. <em>One unforgettable song of praise.</em></h2>
+        </div>
+        <div class="bento how-bento">
+          <div class="cell step s1" data-rv>
+            <span class="num">01</span>
+            <h3 data-i18n="how.s1t">1. Share your testimony</h3>
+            <p data-i18n="how.s1d">Tell us names, favorite Bible verses, memories, answered prayers, or moments where
+              God's hand moved. Simple words are all we need.</p>
+          </div>
+          <div class="cell how-art" data-rv>
+            <img src="media/img/story.webp" width="1024" height="1024" loading="lazy"
+              alt="Testimony notebook with Scripture and inspiration.">
+            <p class="sticker" data-i18n="how.note">One testimony. <b>One eternal song of praise.</b></p>
+          </div>
+          <div class="cell step s2" data-rv>
+            <span class="num">02</span>
+            <h3 data-i18n="how.s2t">2. Pick your worship sound</h3>
+            <p data-i18n="how.s2d">Choose contemporary worship, gospel, traditional hymn, Christian pop, acoustic
+              prayer, or Latin praise. Pick the voice and language.</p>
+          </div>
+          <div class="cell step s3" data-rv>
+            <span class="num">03</span>
+            <h3 data-i18n="how.s3t">3. Receive &amp; bless your loved ones</h3>
+            <p data-i18n="how.s3d">We deliver your fully produced song with your chosen package extras. If any name or
+              line needs adjustment, revisions are included.</p>
+            <button class="btn sm glow" type="button" data-order data-i18n="how.cta">Start Your Song Today</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SONG GUIDE: Interactive Chat -->
+    <section class="story" id="story">
+      <div class="wrap bento story-bento">
+        <div class="cell story-info" data-rv>
+          <div class="eyebrow" data-i18n="story.eyebrow">Guided Song Assistant</div>
+          <h2 data-i18n="story.h2">Share it like you would <em>share a testimony with family.</em></h2>
+          <p class="lead" data-i18n="story.sub">No musical terms required. Our song guide asks four friendly questions
+            and prepares your order details automatically.</p>
+          <ul class="ticks">
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="story.b1">Four quick, uplifting questions (takes only 1 minute)</span></li>
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="story.b2">Include beloved names, places, and meaningful Scripture</span></li>
+            <li><svg aria-hidden="true">
+                <use href="#i-check" />
+              </svg><span data-i18n="story.b3">Review, adjust and customize anything before sending</span></li>
+            <li data-needs-whatsapp hidden><svg aria-hidden="true">
+                <use href="#i-mic" />
+              </svg><span data-i18n="story.b4">Prefer speaking? Send your testimony via WhatsApp voice note.</span></li>
+          </ul>
+        </div>
+        <div class="cell chat" data-rv>
+          <div class="chat-head">
+            <div class="chat-avatar"><svg aria-hidden="true">
+                <use href="#i-chat" />
+              </svg></div>
+            <div><b data-i18n="story.title">Worship Song Guide</b><span data-i18n="story.kind">Interactive
+                assistance</span></div>
+          </div>
+          <div class="msgs" id="msgs" aria-live="polite"></div>
+          <div class="quick" id="quick"></div>
+          <form id="chatForm" autocomplete="off"><input id="chatIn" placeholder="Type your answer here…"
+              data-i18n-ph="story.ph" aria-label="Type your answer here…" data-i18n-aria="story.ph"><button
+              aria-label="Send answer" data-i18n-aria="story.send"><svg aria-hidden="true">
+                <use href="#i-send" />
+              </svg></button></form>
+        </div>
+      </div>
+    </section>
+
+    <!-- STYLES CHIPS -->
+    <section id="styles">
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="styles.eyebrow">Every Melody of Praise</div>
+          <h2 data-i18n="styles.h2">Worship, gospel, hymns, <em>and joyful rhythms.</em></h2>
+          <p class="lead" data-i18n="styles.sub">Select a style to begin. Unsure? Share the mood (joyful celebration,
+            reflective prayer) and we will craft the perfect arrangement.</p>
+        </div>
+        <div class="chips" id="chips" data-rv></div>
+        <div class="style-cta"><button class="btn glow" type="button" id="styleCta">Create My Song</button><span
+            data-i18n="styles.note">Have a specific Christian artist or style in mind? You can write any style notes in
+            your order.</span></div>
+      </div>
+    </section>
+
+    <!-- WHAT THEY GET -->
+    <section id="gift">
+      <div class="wrap bento gift-bento">
+        <div class="cell gift-art" data-rv><img src="media/img/gift.webp" width="1100" height="825" loading="lazy"
+            alt="A blessed Christian gift package with music and memories."></div>
+        <div class="cell gift-text" data-rv>
+          <div class="eyebrow" data-i18n="gift.eyebrow">What You Receive</div>
+          <h2 data-i18n="gift.h2">More than music. <em>A cherished blessing to treasure forever.</em></h2>
+          <p class="lead" data-i18n="gift.sub">The song is the heart of it. We package it beautifully for celebrations
+            at church, at home, or with friends.</p>
+          <ul class="gift-list">
+            <li><span class="ico"><svg aria-hidden="true">
+                  <use href="#i-note" />
+                </svg></span>
+              <div><b data-i18n="gift.l1t">A Mastered Song of Faith</b>
+                <p data-i18n="gift.l1d">Written about your loved ones and your faith, professionally mixed and mastered
+                  as an MP3 to keep and share forever.</p>
+              </div>
+            </li>
+            <li><span class="ico"><svg aria-hidden="true">
+                  <use href="#i-star" />
+                </svg></span>
+              <div><b data-i18n="gift.l2t">Keepsake Lyrics &amp; Scripture Sheet</b>
+                <p data-i18n="gift.l2d">A printable lyric sheet with Bible verses, plus an engaging short lyric video in
+                  Signature and Deluxe packages.</p>
+              </div>
+            </li>
+            <li><span class="ico"><svg aria-hidden="true">
+                  <use href="#i-mail" />
+                </svg></span>
+              <div><b data-i18n="gift.l3t">A Meaningful Way to Present It</b>
+                <p data-i18n="gift.l3d">A private streaming link in every package. Signature adds a custom gift page
+                  with your personal note and a printable QR card.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGES & PRICING -->
+    <section id="pricing">
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="price.eyebrow">Honest &amp; Transparent Packages</div>
+          <h2 data-i18n="price.h2">Choose your blessing. <em>Pay once, enjoy forever.</em></h2>
+          <p class="lead" data-i18n="price.sub">No recurring fees or subscriptions. Every package includes original
+            faith-focused lyrics, complete music production, and private sharing.</p>
+        </div>
+        <div class="plans" id="plans"></div>
+        <h3 class="more" id="moreTitle" data-i18n="price.more">For Churches, Ministries &amp; Special Tributes</h3>
+        <div class="extras" id="extras"></div>
+        <div class="addons cell">
+          <p class="addons-label" data-i18n="price.addT">Add optional extras to any package</p>
+          <ul id="addonList"></ul>
+        </div>
+        <ul class="assure">
+          <li><svg aria-hidden="true">
+              <use href="#i-check" />
+            </svg><span data-i18n="price.g1">One-time payment · Zero subscriptions</span></li>
+          <li><svg aria-hidden="true">
+              <use href="#i-check" />
+            </svg><span data-i18n="price.g2">Nothing is charged directly on this page</span></li>
+          <li><svg aria-hidden="true">
+              <use href="#i-check" />
+            </svg><span data-i18n="price.g3">Review all details with us before paying</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- REVIEWS: Visible only if reviews array in config.js is populated -->
+    <section id="reviews" data-needs-reviews hidden>
+      <div class="wrap">
+        <div class="head" data-rv>
+          <div class="eyebrow" data-i18n="rev.eyebrow">Testimonies &amp; Stories</div>
+          <h2 data-i18n="rev.h2">The joy and tears of gratitude are <em>the true reward.</em></h2>
+        </div>
+        <div class="revs bento" id="revs"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="wrap faq-grid">
+        <div data-rv>
+          <div class="eyebrow" data-i18n="faq.eyebrow">Frequently Asked Questions</div>
+          <h2 data-i18n="faq.h2">Everything you need to know <em>before ordering.</em></h2>
+          <p class="lead" data-i18n="faq.sub">Have questions? You can start the order form safely: nothing is charged
+            until we review your request together.</p>
+        </div>
+        <div class="qa" id="qa"></div>
+      </div>
+    </section>
+
+    <!-- FINAL CALL TO ACTION -->
+    <section class="final">
+      <div class="wrap">
+        <div class="final-card glow-card">
+          <div class="cross-badge-big" aria-hidden="true"><svg>
+              <use href="#i-cross" />
+            </svg></div>
+          <h2 data-i18n="final.h2">Your testimony is ready. <em>Let it become a song of praise!</em></h2>
+          <p data-i18n="final.sub">Share what God has done today. We turn your memories into uplifting music.</p>
+          <button class="btn lg glow" type="button" data-order data-i18n="hero.cta">Create a Song of Faith</button>
+          <small data-i18n="final.note">From $19 · One-time payment</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site">
+    <div class="wrap">
+      <a class="brand" href="#top">
+        <span class="logo" aria-hidden="true"><svg>
+            <use href="#i-cross" />
+          </svg></span>
+        <span class="brand-text" data-brand>Faith Melody Studio</span>
+      </a>
+      <p data-i18n="foot.line">Faith Melody Studio (FaithMelodyStudio.com) · Custom Christian songs crafted from
+        personal testimonies and faith.</p>
+      <span data-i18n="foot.rights">© Faith Melody Studio · FaithMelodyStudio.com · All rights reserved</span>
+    </div>
+  </footer>
+
+  <!-- FLOATING MINI-PLAYER -->
+  <div class="mini" id="mini">
+    <button class="rbtn" type="button" data-play aria-label="Play"><svg aria-hidden="true">
+        <use href="#i-play" data-play-icon />
+      </svg></button>
+    <div class="mini-info"><strong data-title></strong><small data-meta></small></div>
+    <button class="btn sm glow" type="button" data-order data-i18n="nav.cta">Create a Song of Faith</button>
+    <span class="mini-bar" aria-hidden="true"><i id="miniBar"></i></span>
+  </div>
+
+  <!-- ORDER MODAL (4 Steps + Summary) -->
+  <dialog id="order" aria-labelledby="mTitle">
+    <div class="m-head">
+      <div>
+        <h3 id="mTitle" data-i18n="m.title">Create Your Song of Faith</h3>
+        <button class="x" type="button" id="mClose" aria-label="Close dialog" data-i18n-aria="m.close">×</button>
+      </div>
+      <ol class="prog" id="prog">
+        <li data-i18n="m.p1">1 · For Whom</li>
+        <li data-i18n="m.p2">2 · Testimony</li>
+        <li data-i18n="m.p3">3 · Worship Sound</li>
+        <li data-i18n="m.p4">4 · Package &amp; Details</li>
+      </ol>
+    </div>
+    <form class="m-body" id="mBody" novalidate>
+      <div data-step="1">
+        <h4 data-i18n="m.s1t">Who is this song of blessing for?</h4>
+        <p class="hint" data-i18n="m.s1h">We will use their name in the lyrics and prayers exactly as you write it.</p>
+        <div class="grid2">
+          <div class="f"><label for="o-name" data-i18n="m.name">Their name</label><input id="o-name" maxlength="40"
+              autocomplete="off"><span class="err" id="e-name" role="alert"></span></div>
+          <div class="f"><label for="o-say" data-i18n="m.say">Pronunciation or special nickname (optional)</label><input
+              id="o-say" maxlength="60" placeholder="e.g. Joy or Pastor David" autocomplete="off"></div>
+          <div class="f"><label for="o-rel" data-i18n="m.rel">Relationship to you</label><select id="o-rel"></select>
+          </div>
+          <div class="f"><label for="o-occ" data-i18n="m.occ">Occasion or blessing</label><select id="o-occ"></select>
+          </div>
+        </div>
+      </div>
+      <div data-step="2" hidden>
+        <h4 data-i18n="m.s2t">Tell us the testimony or story</h4>
+        <p class="hint" data-i18n="m.s2h">Answered prayers, favorite Bible verses, memories, or blessings you want in
+          the song.</p>
+        <div class="f">
+          <label for="o-story" data-i18n="m.story">Your testimony and memories</label>
+          <textarea id="o-story" maxlength="1500" data-i18n-ph="m.storyPh"
+            placeholder="e.g. We want to honor Mom for her 60th birthday. She loves Psalm 23, taught us to pray every evening, and always serves our church family with a joyful smile..."></textarea>
+          <div class="count"><span id="o-count">0</span>/1500</div>
+          <span class="err" id="e-story" role="alert"></span>
+        </div>
+        <p class="note" data-needs-whatsapp hidden><svg aria-hidden="true">
+            <use href="#i-mic" />
+          </svg><span data-i18n="m.voiceNote">Prefer speaking? You can add a WhatsApp voice note after submitting this
+            summary.</span></p>
+      </div>
+      <div data-step="3" hidden>
+        <h4 data-i18n="m.s3t">Choose the worship sound</h4>
+        <p class="hint" data-i18n="m.s3h">Not sure? Select "Surprise me" and we will tailor the arrangement to your
+          testimony.</p>
+        <div class="grid2">
+          <div class="f"><label for="o-style" data-i18n="m.style">Worship style</label><select id="o-style"></select>
+          </div>
+          <div class="f"><label for="o-mood" data-i18n="m.mood">Emotional tone</label><select id="o-mood"></select>
+          </div>
+          <div class="f"><label for="o-voice" data-i18n="m.voice">Voice type</label><select id="o-voice"></select></div>
+          <div class="f"><label for="o-lang" data-i18n="m.lang">Song language</label><select id="o-lang"></select></div>
+        </div>
+        <div class="f"><label for="o-ref" data-i18n="m.ref">Favorite instruments or style references
+            (optional)</label><input id="o-ref" maxlength="120"
+            placeholder="e.g. Acoustic guitar, warm piano, soft choir..." autocomplete="off"></div>
+      </div>
+      <div data-step="4" hidden>
+        <h4 data-i18n="m.s4t">Pick your package</h4>
+        <p class="hint" data-i18n="m.s4h">One-time payment. No subscription. No charges on this page.</p>
+        <div class="sumbox" id="sumbox"></div>
+        <div class="pick" id="pickPlan" role="radiogroup" aria-labelledby="mTitle"></div>
+        <h4 class="sub" data-i18n="m.addons">Optional Add-ons</h4>
+        <div class="pick" id="pickAdd"></div>
+        <div class="grid2">
+          <div class="f"><label for="o-buyer" data-i18n="m.buyer">Your full name</label><input id="o-buyer"
+              maxlength="60" autocomplete="name"><span class="err" id="e-buyer" role="alert"></span></div>
+          <div class="f"><label for="o-email" data-i18n="m.email">Your email address (optional)</label><input
+              id="o-email" type="email" autocomplete="email" placeholder="you@example.com"><span class="err"
+              id="e-email" role="alert"></span></div>
+          <div class="f"><label for="o-date" data-i18n="m.date">Date needed by (optional)</label><input id="o-date"
+              type="date"></div>
+        </div>
+      </div>
+      <div data-step="5" hidden>
+        <div class="ok">
+          <div class="tick" aria-hidden="true"><svg>
+              <use href="#i-check" />
+            </svg></div>
+          <h4 data-i18n="m.okT">Your order summary is ready to send!</h4>
+          <p id="okLead" data-i18n="m.okLead">Nothing has been charged yet. Review your summary below and send it to us
+            via Email or WhatsApp to confirm.</p>
+          <textarea class="order-text" id="orderText" readonly rows="12" aria-label="Order summary text"
+            data-i18n-aria="m.orderText"></textarea>
+          <div class="send">
+            <a class="btn glow" id="sendMail" hidden data-i18n="m.mail">Send via Email</a>
+            <a class="btn glow" id="sendWa" target="_blank" rel="noopener" hidden data-i18n="m.wa">Send via WhatsApp</a>
+            <button class="btn ghost" type="button" id="copyOrder" data-i18n="m.copy">Copy Order Summary</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="m-foot">
+      <div class="tot"><small data-i18n="m.total">Total</small><b id="mTotal">$39</b></div>
+      <button type="button" class="btn ghost" id="mBack" data-i18n="m.back">Back</button>
+      <button type="button" class="btn glow" id="mNext">Next step</button>
+    </div>
+  </dialog>
+
+  <script src="config.js?v=v8"></script>
+  <script src="text.js?v=v8"></script>
+  <script src="songs.js?v=v8"></script>
+  <script src="script.js?v=v8"></script>
 </body>
+
 </html>
