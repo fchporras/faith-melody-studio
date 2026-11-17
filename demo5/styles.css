@@ -745,49 +745,88 @@ nav#navLinks a:hover { color: var(--gold-deep); }
 .toggle[aria-pressed="true"] i { background: var(--gold); }
 
 .stage {
+  position: relative;
+  height: 340px;
+  min-height: 340px;
+  overflow: hidden;
   flex: 1;
-  min-height: 280px;
-  max-height: 360px;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-  padding-right: 10px;
+  mask-image: linear-gradient(transparent, #000 18%, #000 82%, transparent);
+  -webkit-mask-image: linear-gradient(transparent, #000 18%, #000 82%, transparent);
 }
-.stage::-webkit-scrollbar { width: 6px; }
-.stage::-webkit-scrollbar-track { background: transparent; }
-.stage::-webkit-scrollbar-thumb { background: var(--line); border-radius: 999px; }
 
 .stage-in {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: transform 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
+  will-change: transform;
+  padding: 20px 4px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 6px;
 }
-.l {
-  font-size: 17px;
-  line-height: 1.5;
+
+.kline {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 20px;
+  line-height: 1.45;
+  font-family: var(--serif);
+  font-weight: 500;
   color: #94A3B8;
-  transition: all 0.25s ease;
-  padding: 4px 10px;
-  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease, background 0.3s ease;
+  transform-origin: left center;
+  border-radius: 10px;
+  text-wrap: balance;
 }
-.l.active {
+
+.kline.past {
+  color: #cbd5e1;
+}
+
+.kline:hover {
+  color: var(--ink);
+}
+
+.kline.on {
   color: var(--ink);
   font-weight: 700;
-  font-size: 20px;
-  background: linear-gradient(90deg, #FEF3C7 0%, rgba(254, 243, 199, 0.1) 100%);
-  border-left: 3px solid var(--gold);
-  transform: translateX(4px);
+  font-size: 22px;
+  background: linear-gradient(90deg, #FEF3C7 0%, rgba(254, 243, 199, 0.15) 100%);
+  border-left: 4px solid var(--gold);
+  padding-left: 14px;
+  transform: scale(1.02) translateX(4px);
 }
-.w {
+
+.kw {
   display: inline-block;
-  transition: color 0.15s ease, transform 0.15s ease;
+  transition: color 0.18s ease;
 }
-.w.on {
+
+.kline.on .kw.sung {
   color: var(--gold-deep);
   font-weight: 800;
 }
 
-body.kmode .l { font-size: 22px; }
-body.kmode .l.active { font-size: 28px; }
+/* Large Lyrics Mode */
+.kmode .stage {
+  height: 440px;
+  min-height: 440px;
+}
+.kmode .kline {
+  font-size: clamp(22px, 3.2vw, 32px);
+  text-align: center;
+  transform-origin: center;
+  border-left: none;
+  padding-left: 12px;
+}
+.kmode .kline.on {
+  font-size: clamp(26px, 3.8vw, 38px);
+  transform: scale(1.05);
+}
+
 
 .sheet-foot {
   display: flex;
