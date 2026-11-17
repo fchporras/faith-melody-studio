@@ -210,8 +210,10 @@ if (SONGS.length) {
     if (i === P.idx) toggle(); else { load(i); play(); }
   });
   $('#sLangs').addEventListener('click', (e) => {
-    const b = e.target.closest('button'); if (!b || b.dataset.l === P.lang) return;
-    const was = playing(); load(P.idx, b.dataset.l); if (was) play();
+    const b = e.target.closest('button'); if (!b || b.dataset.l === lang) return;
+    lang = b.dataset.l;
+    try { localStorage.setItem(LANG_KEY, lang); } catch (err) { /* private mode */ }
+    applyLang();
   });
   document.addEventListener('click', (e) => { if (e.target.closest('[data-play]')) toggle(); });
   $('#prev').onclick = () => go(-1);
