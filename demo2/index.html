@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1C3278">
+<meta name="description" content="An original song written from your story: their name, your memories, the things only you know. Listen to samples and start theirs.">
+<title>Dear Song — A song that could only be about them</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 11v5M12 6v12M18 11v5"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.500v15a1 1 0 0 0 1.500.860l12.500-7.500a1 1 0 0 0 0-1.720L8.500 3.640A1 1 0 0 0 7 4.500Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="5" y="4" width="5" height="16" rx="1.400"/><rect x="14" y="4" width="5" height="16" rx="1.400"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.400" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.500 4.500 4.500L19 7.500"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 4.600v10.100A3.600 3.600 0 1 0 11 18V8.300l7-1.700v6.100A3.600 3.600 0 1 0 20 16V3a1 1 0 0 0-1.240-.970l-9 2.200A1 1 0 0 0 9 5.200Z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.500h7l4 4V20a.500.500 0 0 1-.500.500h-10.500a.500.500 0 0 1-.500-.500V4a.500.500 0 0 1 .500-.500ZM14 3.500v4h4M9.500 12h5M9.500 15.500h5"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.500 8 6 8-6"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M20.500 11.800a8.500 8.500 0 0 1-12.600 7.400L3.500 20.500l1.300-4.200a8.500 8.500 0 1 1 15.700-4.500Z"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><rect x="8.500" y="8.500" width="12" height="12" rx="2.500"/><path d="M5.500 15.500h-.500a1.500 1.500 0 0 1-1.500-1.500V5A1.500 1.500 0 0 1 5 3.500h9A1.500 1.500 0 0 1 15.500 5v.500"/></symbol>
+  <symbol id="i-group" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.500"/><path d="M2.500 20a6.500 6.500 0 0 1 13 0M16 4.800a3.500 3.500 0 0 1 0 6.400M18.500 14.300a6.500 6.500 0 0 1 3 5.700"/></symbol>
+  <symbol id="i-biz" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M3.500 10.500 5 4.500h14l1.500 6M4.500 10.500V20h15v-9.500M3.500 10.500a3 3 0 0 0 5.670 0 3 3 0 0 0 5.660 0 3 3 0 0 0 5.670 0M10 20v-5h4v5"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav-row">
+    <a class="logo" href="#top" aria-label="Home">
+      <span class="logo-mark" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+      <span data-brand>Dear Song</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Sections">
+      <a href="#samples">Samples</a>
+      <a href="#how">How it works</a>
+      <a href="#occasions">Occasions</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <button class="btn btn-sm nav-cta" type="button" data-order>Start a song</button>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================ HERO (dark): headline, then a row of windows, one per sample song -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-head">
+      <div>
+        <p class="eyebrow">Custom songs, written from your story</p>
+        <h1>A song that could only be <em>about them.</em></h1>
+      </div>
+      <div class="hero-side">
+        <p class="lede">Their name, the place you met, the thing they always say. Tell us, and we turn it into an original song made for one person.</p>
+        <div class="actions">
+          <button class="btn btn-lg" type="button" data-order>Start their song <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <button class="btn btn-lg btn-ghost" type="button" data-toggle-play aria-label="Play or pause a sample song"><svg aria-hidden="true"><use href="#i-play" data-play-icon/></svg> Hear a sample</button>
+        </div>
+        <p class="fine">Nothing is charged on this page <span aria-hidden="true">·</span> Packages from <span data-from-price>$19</span></p>
+      </div>
+    </div>
+
+    <div class="stage" id="deck">
+      <div class="windows" id="windows" role="group" aria-label="Sample songs"></div>
+
+      <div class="console">
+        <button class="play" type="button" data-toggle-play aria-label="Play or pause the sample song"><svg aria-hidden="true"><use href="#i-play" data-play-icon/></svg></button>
+        <div class="now">
+          <p class="now-title" data-now-title>With You</p>
+          <p class="now-meta"><span class="tag">Sample</span><span data-now-tag>Love · R&amp;B ballad</span></p>
+        </div>
+        <div class="wave" id="wave" role="slider" tabindex="0" aria-label="Position in the song" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><canvas></canvas></div>
+        <p class="time"><span data-now-time>0:00</span> / <span id="tDur">2:33</span></p>
+        <div class="lang" role="group" aria-label="Language of the sample">
+          <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+      </div>
+      <p class="stage-note">Six sample songs. Pick a window to listen. Each one is also in Spanish.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ SAMPLES (light): one real lyric line per song -->
+<section class="band band-light" id="samples">
+  <div class="wrap">
+    <header class="head head-split rise">
+      <div>
+        <p class="eyebrow">Samples</p>
+        <h2>The line that makes it <em>theirs.</em></h2>
+      </div>
+      <p>Each sample was written the way yours would be: from a few lines about one person. Tap a line to hear it sung.</p>
+    </header>
+    <ol class="quotes rise" id="rows"></ol>
+  </div>
+</section>
+
+<!-- ============================================================ HOW (dark) -->
+<section class="band band-deep" id="how">
+  <div class="wrap how-grid">
+    <header class="head rise">
+      <p class="eyebrow">How it works</p>
+      <h2>From what you know <em>to what they hear.</em></h2>
+      <p>You bring the story. The writing and the music are on us.</p>
+    </header>
+    <ol class="steps">
+      <li class="step rise">
+        <span class="step-n" aria-hidden="true"><svg><use href="#i-chat"/></svg><b>1</b></span>
+        <div><h3>Tell us about them</h3><p>Their name, the occasion, and a memory or two. Small details are what make it theirs.</p></div>
+      </li>
+      <li class="step rise">
+        <span class="step-n" aria-hidden="true"><svg><use href="#i-note"/></svg><b>2</b></span>
+        <div><h3>We write the lyrics</h3><p>Built around what you told us, in the language you choose.</p></div>
+      </li>
+      <li class="step rise">
+        <span class="step-n" aria-hidden="true"><svg><use href="#i-play"/></svg><b>3</b></span>
+        <div><h3>We produce the song</h3><p>Sung and fully produced in the sound you picked.</p></div>
+      </li>
+      <li class="step rise">
+        <span class="step-n" aria-hidden="true"><svg><use href="#i-mail"/></svg><b>4</b></span>
+        <div><h3>Listen, then give it</h3><p>If a name or a line isn’t right, ask for a change. Then press play for them.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================ OCCASIONS (medium) -->
+<section class="band band-mid" id="occasions">
+  <div class="wrap">
+    <header class="head head-split rise">
+      <div>
+        <p class="eyebrow">Occasions</p>
+        <h2>For the days <em>that matter.</em></h2>
+      </div>
+      <p>A milestone, or an ordinary evening you want them to remember. Pick one and start their song.</p>
+    </header>
+
+    <div class="arcade">
+      <button class="occ rise" type="button" data-order data-occasion="Birthday">
+        <span class="occ-pane"><img src="media/img/birthday.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Birthdays</b><span>Their name in the chorus, on their day.</span>
+      </button>
+      <button class="occ rise" type="button" data-order data-occasion="Anniversary">
+        <span class="occ-pane"><img src="media/img/love.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Love &amp; anniversaries</b><span>How it started, told back to them.</span>
+      </button>
+      <button class="occ rise" type="button" data-order data-occasion="Wedding">
+        <span class="occ-pane"><img src="media/img/wedding.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Weddings</b><span>A first dance nobody else has.</span>
+      </button>
+      <button class="occ rise" type="button" data-order data-occasion="For Mom">
+        <span class="occ-pane"><img src="media/img/mom.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Parents &amp; family</b><span>The thank-you that is hard to say.</span>
+      </button>
+      <button class="occ rise" type="button" data-order data-occasion="Friendship">
+        <span class="occ-pane"><img src="media/img/friends.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Friendship</b><span>Years of inside jokes, set to music.</span>
+      </button>
+      <button class="occ rise" type="button" data-order data-occasion="Just because">
+        <span class="occ-pane"><img src="media/img/justbecause.webp" width="1100" height="825" loading="lazy" alt=""></span>
+        <b>Just because</b><span>No date on the calendar needed.</span>
+      </button>
+    </div>
+
+    <div class="more rise">
+      <span class="more-label">Also for</span>
+      <div class="more-chips" id="moreChips"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ WHAT THEY GET (dark) -->
+<section class="band band-ink" id="gift">
+  <div class="wrap gift-grid">
+    <div class="gift-art rise">
+      <img src="media/img/gift.webp" width="1100" height="825" loading="lazy" alt="Headphones, a phone showing a sound wave and an envelope tied with a ribbon on a table.">
+    </div>
+    <div>
+      <header class="head rise">
+        <p class="eyebrow">What they get</p>
+        <h2>The song, and <em>a way to give it.</em></h2>
+      </header>
+      <ul class="gift-list">
+        <li class="rise"><span class="ico"><svg aria-hidden="true"><use href="#i-note"/></svg></span><div><b>A finished song</b><p>Written about them and fully produced, as an MP3 they can keep.</p></div></li>
+        <li class="rise"><span class="ico"><svg aria-hidden="true"><use href="#i-doc"/></svg></span><div><b>The words, to keep</b><p>A lyric sheet with every line, and a lyric video in Signature and Deluxe.</p></div></li>
+        <li class="rise"><span class="ico"><svg aria-hidden="true"><use href="#i-mail"/></svg></span><div><b>A private way to share it</b><p>A private link in every package. Signature adds a gift page with your note and a printable QR card.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ PRICING (light) -->
+<section class="band band-paper" id="pricing">
+  <div class="wrap">
+    <header class="head head-split rise">
+      <div>
+        <p class="eyebrow">Pricing</p>
+        <h2>One song, <em>one price.</em></h2>
+      </div>
+      <p>No subscription. Choose how much you want around the song.</p>
+    </header>
+    <div class="prices rise" id="prices"></div>
+    <div class="specials" id="specials"></div>
+    <div class="addons rise">
+      <p class="addons-label">Add to any package</p>
+      <ul id="addonList"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ FAQ (dark) -->
+<section class="band band-deep" id="faq">
+  <div class="wrap faq-wrap">
+    <header class="head head-center rise">
+      <p class="eyebrow">Questions</p>
+      <h2>Before you <em>start.</em></h2>
+    </header>
+    <div class="faq rise">
+      <details><summary>Do I have to write the lyrics?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>No. You give us names, moments and what you want to say. We write the lyrics from that.</p></details>
+      <details><summary>Is the song made with AI?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>Yes. We use AI music tools to turn your story into lyrics and a full production. You hear the result and can ask for changes before you give it.</p></details>
+      <details><summary>Can I choose the sound and the language?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>Yes. Pick a style in the order form, or tell us an artist or mood you have in mind. Tell us the language too. The samples on this page are in English and Spanish.</p></details>
+      <details><summary>What if a name or a line is wrong?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>Every package includes rounds of changes: one in Essential, two in Signature, three in Deluxe.</p></details>
+      <details><summary>How do I get the song?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>We send it to you by reply to your order, with everything else in your package. You decide when and how they hear it.</p></details>
+      <details><summary>How do I pay?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>Nothing is charged on this page. After you send your order we reply with the total and how to pay, and we start once that’s done.</p></details>
+      <details><summary>Can I use the song for my business?<span aria-hidden="true"><svg><use href="#i-plus"/></svg></span></summary><p>Gift songs are for personal use: playing, sharing and posting them as a gift. For ads, shops and podcasts, choose the Business jingle, which comes with a written license.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ CLOSING (medium) -->
+<section class="band closing">
+  <div class="wrap">
+    <h2 class="rise">Think of one person. <em>Start there.</em></h2>
+    <p class="rise">A few lines about them is all we need.</p>
+    <button class="btn btn-lg rise" type="button" data-order>Start their song <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    <p class="fine rise">Nothing is charged on this page.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <a class="logo" href="#top" aria-label="Back to top">
+      <span class="logo-mark" aria-hidden="true"><svg><use href="#i-mark"/></svg></span>
+      <span data-brand>Dear Song</span>
+    </a>
+    <nav aria-label="Footer"><a href="#samples">Samples</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">Questions</a></nav>
+    <span class="copy">© <span id="year">2026</span> <span data-brand>Dear Song</span></span>
+  </div>
+</footer>
+
+<button class="now-pill" id="nowPill" type="button" data-toggle-play aria-label="Play or pause the song">
+  <span class="pill-btn" aria-hidden="true"><svg><use href="#i-play" data-play-icon/></svg></span>
+  <span class="pill-text"><b data-now-title>With You</b><span id="pillLine"></span></span>
+</button>
+
+<!-- ============================================================ ORDER FORM -->
+<dialog class="order" id="order" aria-labelledby="orderTitle">
+  <button class="order-close" type="button" id="orderClose" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+
+  <form id="orderForm" novalidate>
+    <header class="order-head">
+      <p class="eyebrow">Start here</p>
+      <h2 id="orderTitle">Tell us <em>about them.</em></h2>
+      <p>Four quick things. Nothing is charged on this page.</p>
+    </header>
+
+    <div class="field-row">
+      <label class="field">Who is the song for? <input id="fRecipient" name="recipient" required maxlength="80" placeholder="e.g. Maya, my wife" autocomplete="off"></label>
+      <label class="field">What’s the occasion? <select id="fOccasion" name="occasion"></select></label>
+    </div>
+    <label class="field">A memory or two
+      <textarea id="fMemory" name="memory" required rows="4" maxlength="900" placeholder="Where you met, what they always say, a moment only the two of you remember…"></textarea>
+    </label>
+    <div class="field-row">
+      <label class="field">Sound <select id="fSound" name="sound"></select></label>
+      <label class="field">Language <input id="fLanguage" name="language" list="langOptions" value="English" maxlength="40"></label>
+      <datalist id="langOptions"><option value="English"><option value="Spanish"><option value="English and Spanish"><option value="French"><option value="Portuguese"></datalist>
+    </div>
+
+    <fieldset class="choices">
+      <legend>Package</legend>
+      <div class="pkg-choices" id="pkgChoices"></div>
+    </fieldset>
+    <fieldset class="choices" id="addonField">
+      <legend>Add-ons <span>optional</span></legend>
+      <div class="addon-choices" id="addonChoices"></div>
+    </fieldset>
+
+    <label class="field">Your name <input id="fBuyer" name="buyer" required maxlength="80" autocomplete="name"></label>
+
+    <div class="order-foot">
+      <p class="total"><span>Total</span><b id="orderTotal">$39</b></p>
+      <button class="btn" type="submit">Review my order <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+    </div>
+    <p class="form-error" id="formError" role="alert" hidden></p>
+  </form>
+
+  <div class="order-done" id="orderDone" hidden>
+    <header class="order-head">
+      <p class="eyebrow">Almost there</p>
+      <h2 tabindex="-1" id="doneTitle">Your order is ready to send.</h2>
+      <p id="doneLead">Send it to us and we’ll reply with the total and how to pay.</p>
+    </header>
+    <pre id="orderText"></pre>
+    <div class="send">
+      <a class="btn" id="sendMail" href="#"><svg aria-hidden="true"><use href="#i-mail"/></svg> Send by email</a>
+      <a class="btn btn-quiet" id="sendWa" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-chat"/></svg> Send on WhatsApp</a>
+      <button class="btn btn-quiet" type="button" id="copyOrder"><svg aria-hidden="true"><use href="#i-copy"/></svg> Copy</button>
+    </div>
+    <p class="send-note" id="sendNote" role="status"></p>
+    <button class="link" type="button" id="editOrder">Change something</button>
+  </div>
+</dialog>
+
+<script src="config.js"></script>
+<script src="songs.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
